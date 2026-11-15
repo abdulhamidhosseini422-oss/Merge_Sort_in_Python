@@ -10,12 +10,12 @@ Merge Sort is a comparison-based sorting algorithm that divides an unsorted list
 
 The implementation consists of two main functions:
 
-### 1. merge()
+### 1. merge_sort()
 - Divides the input list into two halves.
 - Recursively sorts each half.
 - Calls merge_sort() to combine the sorted sublists.
 
-### 2. merge_sort()
+### 2. merge()
 - Compares elements from the left and right sublists.
 - Places elements in ascending order.
 - Copies any remaining elements into the original list.
